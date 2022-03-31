@@ -1,0 +1,31 @@
+body {
+  background: url("/imagens/Back.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 60px;
+  text-align: center;
+  color: #407086;
+}
+
+hr {
+  width: 60%;
+  height: 15px;
+  background-color: #407086;
+  border: none; /* tira a borda */
+}
+
+.box {
+  width: 50%;
+  background: #d6effb67;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 40px auto 0 auto;
+  padding: 15px 20px;
+  border-radius: 15px;
+  border: 2px solid #222222;
+}

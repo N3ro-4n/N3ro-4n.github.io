@@ -1,0 +1,15 @@
+arquivo html deve estar na raiz
+//<b> - entrada </b> saida -> deixa o texto em negrito
+//<i> - entrada </i> saida -> deixa o texto em itálico
+//<u> - entrada </u> saida -> deixa o texto sublinhado
+//Tudo desenvolvido em html deve começar em <hmtl> e termina em </html>
+//Tufo wque se desenvolve está dentro do body(corpo da página)
+//Header é onde se coloca as conexões com as outras linguagens
+//<meta charset="UTF-8"> - reconhece o padrão da linguagem br
+//  <meta name="viewport" content="width=device-width, initial-scale=1.0"> dá a possiblidade de haver responsividade no site, tanto em desktop quanto em mobile
+//h1 torna o titulo primario e consequentemente, pensa-se em acessibilidade
+//Tag hr - linha horizontal, não precisa de tag de fechamento (</hr>)
+//<p> - cria um parágrafo
+//Lorem*num - cria paragrafos aleatórios.
+//<img> dentro dela deve ter um parametro para informar onde está imagem
+//<img src="imagens/DS3.png"> insere a imagem

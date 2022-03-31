@@ -1,0 +1,67 @@
+body {
+  background-image: url("/imagens/mountain-bike-11.jpg");
+  /* background-image: linear-gradient(#febe02, #0000); */
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 70px;
+  text-align: center;
+  color: #febe01;
+}
+
+h2 {
+  margin: 0;
+  color: #ffff;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+hr {
+  background-color: #222222;
+  width: 50%;
+  height: 15px;
+  border: none;
+}
+
+.box {
+  background-color: #222222;
+  color: aliceblue;
+  padding: 20px;
+  border-radius: 5px;
+}
+
+a {
+  background-color: #febe01;
+  border-color: #febe01;
+  border-radius: 5px;
+  color: #222222;
+  display: inline-block;
+  font-family: "Times New Roman", Times, serif;
+  font-weight: 700;
+  padding: 10px;
+  text-decoration: none; /* coloca decoração em texto */
+  border: 1px solid transparent;
+}
+
+a:hover {
+  background: #222222;
+  color: #febe01;
+  border: 1px solid #febe01;
+}
+
+p {
+  color: #b3b3b3;
+}
+
+p span {
+  color: #febe01;
+}
+
+#grid {
+  /* background-color: rgba(170, 170, 170, 0.39); */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+  gap: 20px;
+}

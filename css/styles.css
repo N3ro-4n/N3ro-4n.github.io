@@ -1,0 +1,68 @@
+body {
+  background: url("/imagens/Background.jpg");
+  background-repeat: no-repeat;
+  background-position: 90% 50%;
+  background-size: cover;
+  background-attachment: fixed;
+}
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: indianred;
+  font-family: fantasy;
+  text-shadow: 1px 1px 1px #000;
+}
+
+hr {
+  width: 50%;
+  height: 2px;
+  background-color: salmon;
+}
+
+.linha {
+  background: red;
+}
+
+p {
+  color: aliceblue;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  text-align: justify;
+}
+mark {
+  background-color: aliceblue;
+  color: rgb(231, 147, 147);
+}
+
+#ArmoredWoman {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.video {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+  font-weight: 700;
+}
+a:hover {
+  color: cyan;
+  text-decoration: underline;
+}
+
+a:visited {
+  color: purple;
+}
+
+.textorodape {
+  text-align: center;
+}
